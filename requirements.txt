@@ -1,0 +1,11 @@
+For solving:
+JuMP, LinearAlgebra, SparseArrays, Tools, IterTools, MosekTools, Graphs
+
+with one of the following solvers:
+Mosek, SCS, SDPA, Clarabel
+
+For plotting:
+Graphs, GraphPlot, Colors, ColorSchemes, NetworkLayout
+
+Saving graphs:
+Cairo, Compose, FileIO, JLD2

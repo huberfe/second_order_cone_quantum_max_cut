@@ -1,3 +1,12 @@
+Code for:
+
+Second order cone relaxations for quantum Max Cut
+Felix Huber, Kevin Thompson, Ojas Parekh, Sevag Gharibian
+https://arxiv.org/abs/2411.04120
+
+
+
+
 Main files:
 
     QMC.jl
@@ -13,9 +22,7 @@ Requirements:
 
 ###############################
 
-Usage: 
-
-#### 
+Main functions:
 
 QMC.jl: 
 
@@ -33,7 +40,8 @@ QMC_to_varbench(A, val)
 rounded_obj(X, A; samps=1000, var_bench_norm=true)
 returns a feasible solution after rounding + list of large edges.
 
-####
+
+
 
 QMC_Plot.jl:
 
